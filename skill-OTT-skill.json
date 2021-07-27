@@ -1,0 +1,1994 @@
+{
+  "intents": [
+    {
+      "intent": "collect_name",
+      "examples": [
+        {
+          "text": "i am sadwika"
+        },
+        {
+          "text": "i am sai",
+          "mentions": [
+            {
+              "entity": "user_name",
+              "location": [
+                5,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i am swaroop"
+        },
+        {
+          "text": "my name is nithin",
+          "mentions": [
+            {
+              "entity": "user_name",
+              "location": [
+                11,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is sadwika",
+          "mentions": [
+            {
+              "entity": "user_name",
+              "location": [
+                11,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is sai",
+          "mentions": [
+            {
+              "entity": "user_name",
+              "location": [
+                11,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is sai teja",
+          "mentions": [
+            {
+              "entity": "user_name",
+              "location": [
+                11,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is srinivas",
+          "mentions": [
+            {
+              "entity": "user_name",
+              "location": [
+                11,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is swaroop",
+          "mentions": [
+            {
+              "entity": "user_name",
+              "location": [
+                11,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "nithin",
+          "mentions": [
+            {
+              "entity": "user_name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "sadwika",
+          "mentions": [
+            {
+              "entity": "user_name",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "sai",
+          "mentions": [
+            {
+              "entity": "user_name",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "sai teja",
+          "mentions": [
+            {
+              "entity": "user_name",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "srinivas",
+          "mentions": [
+            {
+              "entity": "user_name",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "swaroop",
+          "mentions": [
+            {
+              "entity": "user_name",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Different_ott",
+      "examples": [
+        {
+          "text": "for which ott platforms you can provide information?"
+        },
+        {
+          "text": "list of OTT's"
+        },
+        {
+          "text": "show me different ott's"
+        },
+        {
+          "text": "show me list of ott's that are available"
+        },
+        {
+          "text": "show me list of various ott"
+        },
+        {
+          "text": "what are the different OTT platforms?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "Tell me something about yourself"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "genres",
+      "examples": [
+        {
+          "text": "available genres"
+        },
+        {
+          "text": "different genres available"
+        },
+        {
+          "text": "different type of genres"
+        },
+        {
+          "text": "list of genres"
+        },
+        {
+          "text": "what are the various genres"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "information_about_ott",
+      "examples": [
+        {
+          "text": "provide information about amazon prime"
+        },
+        {
+          "text": "provide information about disney+hotstar"
+        },
+        {
+          "text": "provide information about netflix"
+        },
+        {
+          "text": "tell me about amazon prime"
+        },
+        {
+          "text": "tell me about disney+hotstar"
+        },
+        {
+          "text": "tell me about netflix"
+        },
+        {
+          "text": "what is amazon prime?"
+        },
+        {
+          "text": "what is disney+ hotstar"
+        },
+        {
+          "text": "what is netflix?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "subscription_charges",
+      "examples": [
+        {
+          "text": "fee of amazon prime",
+          "mentions": [
+            {
+              "entity": "subscriptions",
+              "location": [
+                7,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "fee of disney+hotstar",
+          "mentions": [
+            {
+              "entity": "subscriptions",
+              "location": [
+                7,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "fee of netflix",
+          "mentions": [
+            {
+              "entity": "subscriptions",
+              "location": [
+                7,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "price of amazon prime?"
+        },
+        {
+          "text": "price of Disney +hotstar?"
+        },
+        {
+          "text": "price of netflix?"
+        },
+        {
+          "text": "what is the subscription charges of amazon prime?"
+        },
+        {
+          "text": "what is the subscription charges of Disney + Hotstar?"
+        },
+        {
+          "text": "what is the subscription charges of netflix?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "user_genre_selection",
+      "examples": [
+        {
+          "text": "action",
+          "mentions": [
+            {
+              "entity": "user_genre_selection",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "adventure",
+          "mentions": [
+            {
+              "entity": "user_genre_selection",
+              "location": [
+                0,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "comedy",
+          "mentions": [
+            {
+              "entity": "user_genre_selection",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "fantasy",
+          "mentions": [
+            {
+              "entity": "user_genre_selection",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "horror",
+          "mentions": [
+            {
+              "entity": "user_genre_selection",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i like action",
+          "mentions": [
+            {
+              "entity": "user_genre_selection",
+              "location": [
+                7,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i like adventure",
+          "mentions": [
+            {
+              "entity": "user_genre_selection",
+              "location": [
+                7,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i like comedy",
+          "mentions": [
+            {
+              "entity": "user_genre_selection",
+              "location": [
+                7,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i like fantasy",
+          "mentions": [
+            {
+              "entity": "user_genre_selection",
+              "location": [
+                7,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i like horror",
+          "mentions": [
+            {
+              "entity": "user_genre_selection",
+              "location": [
+                7,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i like Science Fiction",
+          "mentions": [
+            {
+              "entity": "user_genre_selection",
+              "location": [
+                7,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Science Fiction",
+          "mentions": [
+            {
+              "entity": "user_genre_selection",
+              "location": [
+                0,
+                15
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "user_ott_selection",
+      "examples": [
+        {
+          "text": "best movies available"
+        },
+        {
+          "text": "different genres"
+        },
+        {
+          "text": "list of best movies"
+        },
+        {
+          "text": "please recommend movies"
+        },
+        {
+          "text": "provide recommendations"
+        },
+        {
+          "text": "various genres"
+        },
+        {
+          "text": "what are the different genres"
+        },
+        {
+          "text": "what are the top movies"
+        },
+        {
+          "text": "what are various genres"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "information_about_ott",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "amazon prime",
+          "synonyms": [
+            "amazon",
+            "prime"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "disney+hotstar",
+          "synonyms": [
+            "disney",
+            "hotstar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "netflix",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ott_selection_user",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "amazon prime",
+          "synonyms": [
+            "amazon",
+            "prime"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "disney+hotstar",
+          "synonyms": [
+            "disney",
+            "hotstar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "netflix",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "subscriptions",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "amazon prime",
+          "synonyms": [
+            "amazon",
+            "prime"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "disney+ hotstar",
+          "synonyms": [
+            "disney",
+            "hotstar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "disney+hotstar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "netflix",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Science Fiction",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "user_genre_selection",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "action",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "adventure",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "comedy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "fantacy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "horror",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Science Fiction",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "user_name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nithin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sadwika",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sai",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sai teja",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "srinivas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "swaroop",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_9_1625467649676",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1625468710201",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1625468710257",
+      "previous_sibling": "handler_6_1625468710257"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_7_1625471915842",
+      "event_name": "input",
+      "dialog_node": "handler_2_1625471915855"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1625471915842",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1625471915855",
+      "previous_sibling": "handler_2_1625471915855"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1625468710201",
+      "context": {
+        "user_name": "@user_name"
+      },
+      "conditions": "@user_name",
+      "event_name": "input",
+      "dialog_node": "handler_6_1625468710257"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello...hope you are having a good day. How may I help you? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_10_1625465605715",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "different OTT's  ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are the different OTT platforms: \n1.Amazon Prime\n2.Netflix \n3.Disney+ Hotstar"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Different_ott",
+      "dialog_node": "node_1_1625468939333",
+      "previous_sibling": "node_5_1625465279679"
+    },
+    {
+      "type": "standard",
+      "title": "netflix_genre_selection",
+      "parent": "node_9_1625545184208",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@user_genre_selection",
+      "dialog_node": "node_1_1625545381593"
+    },
+    {
+      "type": "standard",
+      "title": "greeting_user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello @user_name, how may i help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#collect_name && @user_name",
+      "dialog_node": "node_5_1625465279679",
+      "previous_sibling": "node_6_1625467151460"
+    },
+    {
+      "type": "standard",
+      "title": "user_ott_selection",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "please select an OTT in which you want movie recommendations\nAmazon prime\nNetflix\nDisney+hotstar"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#user_ott_selection",
+      "dialog_node": "node_5_1625501783030",
+      "previous_sibling": "node_7_1625472871579"
+    },
+    {
+      "type": "standard",
+      "title": "amazon_genre_selection",
+      "parent": "node_6_1625502531398",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@user_genre_selection",
+      "dialog_node": "node_5_1625503056390"
+    },
+    {
+      "type": "standard",
+      "title": "bot capabilities",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I can do the following things...\n1.Provide information about various OTT platforms.\n2.Recommend movies, shows from various OTT platforms based on your interests. \n3.I can provide you with the list of top movies for various genres that are available on various OTT's .\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Agent_Capabilities",
+      "dialog_node": "node_6_1625467151460",
+      "previous_sibling": "node_8_1625467098544"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1625501783030",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@ott_selection_user:(amazon prime)",
+      "dialog_node": "node_6_1625502531398"
+    },
+    {
+      "type": "standard",
+      "title": "information about various ott",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#information_about_ott",
+      "dialog_node": "node_7_1625469801547",
+      "previous_sibling": "node_1_1625468939333"
+    },
+    {
+      "type": "standard",
+      "title": "subscription charges",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#subscription_charges",
+      "dialog_node": "node_7_1625472871579",
+      "previous_sibling": "node_7_1625469801547"
+    },
+    {
+      "type": "standard",
+      "title": "disney_genre_selection",
+      "parent": "node_9_1625552695267",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@user_genre_selection",
+      "dialog_node": "node_7_1625552843651"
+    },
+    {
+      "type": "standard",
+      "title": "about bot",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, I am the OTT recommend engine, I can help you with choosing an OTT platform and with movie recommendations for various genres."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_About_You",
+      "dialog_node": "node_8_1625467098544",
+      "previous_sibling": "node_10_1625465605715"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pleasure talking to you,hope I have solved your queries .\nBye...See you again"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_9_1625467649676",
+      "previous_sibling": "node_5_1625501783030"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1625501783030",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@ott_selection_user:netflix",
+      "dialog_node": "node_9_1625545184208",
+      "previous_sibling": "node_6_1625502531398"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1625501783030",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@ott_selection_user:(disney+hotstar)",
+      "dialog_node": "node_9_1625552695267",
+      "previous_sibling": "node_9_1625545184208"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Disney+ Hotstar",
+            "source": "https://secure-media.hotstar.com/web-assets/prod/images/Disney+Hotstar.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Disney+ Hotstar is an online video streaming platform owned by Novi Digital Entertainment Private Limited, a wholly owned subsidiary of Star India Private Limited. Disney+ Hotstar currently offers over 100,000 hours of TV content and movies across 9 languages, and every major sport covered live. Highly evolved video streaming technology and a high attention to quality of experience across devices and platforms, make Disney+ Hotstar the most complete video destination for Over The Top (OTT) video consumers."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1625469801547",
+      "conditions": "@information_about_ott:(disney+hotstar)",
+      "dialog_node": "response_10_1625472313312",
+      "previous_sibling": "response_8_1625471862815"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "please select the genre you like,"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Action\nAdventure\nHorror\nComedy\nScience Fiction"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1625502531398",
+      "conditions": "@ott_selection_user:(amazon prime)",
+      "dialog_node": "response_10_1625502579550",
+      "previous_sibling": "node_5_1625503056390"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "please select genre you like,"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Action\nAdventure\nHorror\nComedy\nScience Fiction"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1625545184208",
+      "conditions": "@ott_selection_user:netflix",
+      "dialog_node": "response_10_1625545307520",
+      "previous_sibling": "node_1_1625545381593"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "the best adventure movies on hotstar are:\nMULAN (2020)\nTHE JUNGLE BOOK (2016)\nPERCY JACKSON & THE OLYMPIANS: THE LIGHTNING.\nTHE CALL OF THE WILD (2020)\nTOMORROWLAND: A WORLD BEYOND (2015)\nJUNGLEE (2019)\nTHE LION KING (2019)\nPIRATES OF THE CARIBBEAN: ON STRANGER TIDES."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "For latest adventure movies, click<a target=\"_blank\" href=\"https://www.digit.in/top-products/best-adventure-movies-on-disney-hotstar-3657.html\"> latest adventure movies on hotstar</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1625552843651",
+      "conditions": "@user_genre_selection:adventure",
+      "dialog_node": "response_10_1625552904157",
+      "previous_sibling": "response_2_1625552898788"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "best Sci-fi movies on hotstar are:\nWAR FOR THE PLANET OF APES (2017)\nSHAPE OF WATER (2017)\nAVENGERS: ENDGAME (2019)\nGUARDIANS OF THE GALAXY VOL. 2 (2017)\nAD ASTRA (2019)\nTHE MARTIAN (2015)\nCAPTAIN MARVEL (2019)\nCAPTAIN AMERICA: WINTER SOLDIER (2014)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "For latest science fiction movies, click<a target=\"_blank\" href=\"https://www.digit.in/top-products/best-sci-fi-movies-on-disney-hotstar-3671.html\"> latest science fiction movies on hotstar</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1625552843651",
+      "conditions": "@user_genre_selection:(Science Fiction)",
+      "dialog_node": "response_10_1625552912685",
+      "previous_sibling": "response_6_1625552909756"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "the best action movies on Disney+Hotstar are,"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Avengers: Infinity Saga\nMurder on the Orient Express\nFord v Ferrari\nToy Story 4\nAvatar\nJojo Rabbit\nBlack Panther\nVada Chennai"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "For latest action movies, click<a target=\"_blank\" href=\"https://www.gqindia.com/binge-watch/collection/top-25-movies-on-disney-hotstar/\"> latest action movies on hotstar</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1625552843651",
+      "conditions": "@user_genre_selection:action",
+      "dialog_node": "response_2_1625552898788"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "the best comedy movies on hotstar are:\nCHHICHHORE (2019)\nLOOTCASE (2020)\nTHE FAVOURITE (2018)\nBALA (2019)\nANGREZI MEDIUM (2020)\nJOJO RABBIT (2019)\nSTREE (2018)\nCAN YOU EVER FORGIVE ME? (2018)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "For latest comedy movies, click<a target=\"_blank\" href=\"https://www.digit.in/top-products/best-comedy-movies-on-disney-hotstar-3640.html\"> latest comedy movies on hotstar</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1625552843651",
+      "conditions": "@user_genre_selection:comedy",
+      "dialog_node": "response_2_1625552906975",
+      "previous_sibling": "response_10_1625552904157"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "the best action movies on netflix are:\nThe Old Guard.\nFree Fire.\nCasino Royale.\nTriple Frontier.\nIp Man.\nWheelman.\nTotal Recall.\nEnter the Dragon\n"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "For latest action movies, click<a target=\"_blank\" href=\"https://www.vulture.com/article/best-action-movies-netflix.html\"> latest action movies on Netflix</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1625545381593",
+      "conditions": "@user_genre_selection:action",
+      "dialog_node": "response_3_1625545523540",
+      "previous_sibling": "response_7_1625545521447"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "the best Sci-Fi movies available on netflix are:\nSpace Sweepers. Year: 2021. ...\nBlame! Year: 2017. ...\nProject Power. Year: 2020. ...\nReal Steel. Year: 2011. ...\nInvader Zim: Enter the Florpus. Year: 2017. ...\nThe Signal. Year: 2014. ...\nI Am Mother. Year: 2019. Director: Grant Sputore. ...\nThe Cloverfield Paradox. Year: 2018. Director: Julius Onah."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "For latest sci-fi movies, click<a target=\"_blank\" href=\"https://www.netflix.com/in/browse/genre/1492\"> latest sci-fi movies on Netflix</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1625545381593",
+      "conditions": "@user_genre_selection:(Science Fiction)",
+      "dialog_node": "response_4_1625545529739",
+      "previous_sibling": "response_5_1625545527942"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Amazon Prime:",
+            "source": "https://images-eu.ssl-images-amazon.com/images/I/41mpv9rBhmL.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Amazon Prime is a paid subscription service that gives Amazon shoppers a variety of perks. Amazon Prime Video is one of the biggest perks of being an Amazon Prime member. Prime Video offers unlimited streaming of movies and TV episodes. Another advantage, however, is free one- or two-day shipping on most items sold by Amazon. During Amazon's Q1 2021 earnings call, the company revealed it has over 200 million paid Prime members worldwide."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1625469801547",
+      "conditions": "@information_about_ott:(amazon prime)",
+      "dialog_node": "response_5_1625470209545",
+      "previous_sibling": "slot_7_1625471915842"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "the best horror movies available on netflix are:\nHis House\nThe Haunting of Hill House\nCreep\nThe Invitation\nThe conjuring"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "For latest horror movies, click<a target=\"_blank\" href=\"https://www.pastemagazine.com/movies/best-horror-movies-on-netflix-streaming/\"> latest horror movies on Netflix</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1625545381593",
+      "conditions": "@user_genre_selection:horror",
+      "dialog_node": "response_5_1625545527942",
+      "previous_sibling": "response_3_1625545523540"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "the best action movies available on amazon prime are:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "JUMANJI: THE NEXT LEVEL\nWONDER WOMEN\nTHE HURT LOCKER\nWAR\nMAD MAX\nMISSION IMPOSSIBLE: GHOST PROTOCOL\nFURIOUS 7\n13 HOURS: THE SECRET SOLDIERS OF BENGHAZI\nK.G.F: CHAPTER 1\nTHE ITALIAN JOB"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "For latest action movies, click<a target=\"_blank\" href=\"https://www.digitaltrends.com/movies/best-action-movies-on-amazon-prime/\"> latest action movies on amazon prime</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1625503056390",
+      "conditions": "@user_genre_selection:action",
+      "dialog_node": "response_6_1625503138502"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "please select genre you like,"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Action\nAdventure\nComedy\nScience Fiction\nHorror"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1625552695267",
+      "conditions": "@ott_selection_user:(disney+hotstar)",
+      "dialog_node": "response_6_1625552742597",
+      "previous_sibling": "node_7_1625552843651"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "the best horror movies on hotstar are:\nThe Exorcist\nIt Follows\nAmerican Horror Story\nHemlock Grove\nThe Strain"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "For latest horror movies, click<a target=\"_blank\" href=\"https://www.hotstar.com/in/genres/horror\"> latest horror movies on hotstar</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1625552843651",
+      "conditions": "@user_genre_selection:horror",
+      "dialog_node": "response_6_1625552909756",
+      "previous_sibling": "response_2_1625552906975"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pleasure talking to you @user_name.I hope I have solved your queries .\nBye...See you again"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1625467649676",
+      "disabled": true,
+      "dialog_node": "response_7_1625468740602"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Netflix Rs 199 Mobile plan\nThis is the most basic Netflix plan and is priced at Rs 199 per month. While the plan offers unrestricted access to the whole catalogue of Netflix, there are a few restrictions in place. For starters, the plan can be used to watch content only on mobile devices which includes smartphones and tablets. Moreover, users can stream content only in Standard Definition (SD) resolution and only on one screen at a time. Users will have to pay Rs 2,388 for this Netflix yearly plan.\n\nNetflix Rs 299 Mobile+ plan\nThe Netflix Rs 299 Mobile+ plan is being tested by Netflix India in the country and is available only to a select few users. The plan is priced at Rs 299 and offers the same benefits as the basic Mobile plan. However, users who subscribe to this plan will be able to stream content in HD resolution instead of SD.\n\nNetflix Rs 499 Basic plan\nNext up is the Netflix Basic plan priced at Rs 499 per month. For a premium of Rs 300, users will be able to stream content on laptop and TV too, apart from mobile devices. However, other conditions remain the same as the mobile plan including SD resolution, and 1 screen allowed at a time. In case you want to purchase Netflix yearly subscription for this particular plan, you’ll have to pay Rs 5,988.\n\nNetflix Rs 649 Standard plan\nThe Netflix Standard plan is priced at Rs 649 per month and it bumps the number of screens allowed for concurrent viewing to two. Additionally, the Netflix Standard plan also lets users enjoy their favourite shows and movies in High Definition (HD) resolution. Users who subscribe to this plan can enjoy streaming on smartphones, tablets, laptops, and TVs. The Netflix annual subscription for this plan costs Rs 7,788.\n\nNetflix Rs 799 Premium plan\nThis is the most premium of all Netflix plans in India priced at Rs 999 per month and Rs 9,588 for a year.  Users will be able to stream on smartphones, tablets, laptops, and TVs using this plan. Additionally, the account comes with support for four screens, which means four users can stream from the same id at the same time. Lastly, the Rs 799 Netflix subscription in India allows users to enjoy streaming in 4K resolution."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1625472871579",
+      "conditions": "@subscriptions:netflix",
+      "dialog_node": "response_7_1625473370577",
+      "previous_sibling": "response_8_1625473298930"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "the best horror movies available on amazon prime are:\nThe wailing\nThe Monster Squad\nThe Wicker man\nThe Vast of Night\nVivarium\nBehind the Mask: The Rise of Leslie Vernon\nThe Lighthouse\nMidsommar\nSuspiria\nResolution"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "For latest horror movies on amazon prime, click <a target=\"_blank\" href=\"https://collider.com/horror-movies-on-amazon-prime-streaming/\"> latest horror movies on prime </a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1625503056390",
+      "conditions": "@user_genre_selection:horror",
+      "dialog_node": "response_7_1625544006518",
+      "previous_sibling": "response_8_1625543369022"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "the best adventure movies available on netflix are:\nThe Dark knight\nInception\nENOLA HOLMES \nTHE REVENANT\nBAAHUBALI: THE BEGINNING \nExtraction\nGANGS OF WASSEYPUR: PART 1 (2012)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "For latest adventure movies, click<a target=\"_blank\" href=\"https://www.digit.in/top-products/best-adventure-movies-on-netflix-3632.html\"> latest adventure movies on Netflix</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1625545381593",
+      "conditions": "@user_genre_selection:adventure",
+      "dialog_node": "response_7_1625545521447",
+      "previous_sibling": "response_9_1625545517495"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Netflix:",
+            "source": "https://article-assets.mpm.mdpcdn.com/lead_images/124/mpmlead_Netflix.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Netflix is a subscription-based streaming service that allows our members to watch TV shows and movies without commercials on an internet-connected device.   \n\nYou can also download TV shows and movies to your iOS, Android, or Windows 10 device and watch without an internet connection.\n\nNetflix is a subscription-based streaming service that allows our members to watch TV shows and movies without commercials on an internet-connected device.   \n\nYou can also download TV shows and movies to your iOS, Android, or Windows 10 device and watch without an internet connection."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1625469801547",
+      "conditions": "@information_about_ott:netflix",
+      "dialog_node": "response_8_1625471862815",
+      "previous_sibling": "response_5_1625470209545"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "If you sign up to a monthly membership, your membership charge is ₹129. For an annual membership, the charge is ₹999"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1625472871579",
+      "conditions": "@subscriptions:(amazon prime)",
+      "dialog_node": "response_8_1625473298930"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "the best comedy movies available on amazon prime are:\nGood Newwz\nRush Hour 2\nBorat\nMask\nTed\nHAROLD AND KUMAR ESCAPE FROM GUANTANAMO BAY\nThe Hang Over\nThe Interview\nSHUBH MANGAL ZYADA SAVDHAN\nLiar Liar\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "For latest comedy movies on amazon prime, click <a target=\"_blank\" href=\"https://www.digit.in/top-products/best-comedy-movies-on-amazon-prime-3627.html\"> latest comedy movies on prime </a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1625503056390",
+      "conditions": "@user_genre_selection:comedy",
+      "dialog_node": "response_8_1625543369022",
+      "previous_sibling": "response_9_1625506734671"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Disney Plus Hotstar comes in two tiers – Premium and VIP. The Premium plan can be subscribed in both monthly and annual plans, and are priced at Rs 299 per month or Rs 1,499 per year. The lower tier subscription plan, Hotstar VIP, is priced at Rs 399 per year"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1625472871579",
+      "conditions": "@subscriptions:(disney+ hotstar)",
+      "dialog_node": "response_9_1625473972867",
+      "previous_sibling": "response_7_1625473370577"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "the best adventure movies available on amazon prime are:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "DORA AND THE LOST CITY OF GOLD (2019)\nADRIFT\nBIG GAME \nOPERATION RED SEA\nGEMINI MAN \nASSASSIN’S CREED (2016)\nJOURNEY 2: THE MYSTERIOUS ISLAND (2012)\nTHE EXTRAORDINARY ADVENTURES OF ADèLE BLANC-S\nFANTASTIC BEASTS AND WHERE TO FIND THEM\nKONG: SKULL ISLAND (2017)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "For latest adventure movies, click<a href=\"https://www.digit.in/top-products/best-adventure-movies-on-amazon-prime-3634.html\"> latest action movies on prime</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1625503056390",
+      "conditions": "@user_genre_selection:adventure",
+      "dialog_node": "response_9_1625506734671",
+      "previous_sibling": "response_6_1625503138502"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "the best science fiction movies available on amazon prime are:\nInception\nThe man who fell from earth\nHigh life\nInvasion of the Body Snatchers\nStar Trek II: The Wrath of Khan\ngalaxy quest\nAI\nDredd\nDonnie Darko\nVivarium"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "For latest science fiction movies on amazon prime, click <a target=\"_blank\" href=\"https://www.pastemagazine.com/movies/amazon-prime/the-best-sci-fi-movies-on-amazon-prime/\"> latest science fiction movies on prime </a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1625503056390",
+      "conditions": "@user_genre_selection:(Science Fiction)",
+      "dialog_node": "response_9_1625544016064",
+      "previous_sibling": "response_7_1625544006518"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "the best comedy movies on Netflix are,"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Monty Python and the Holy Grail. Year: 1975. \nMonty Python's Life of Brian. Year: 1979. \nSuperbad. Year: 2007. \nThe Naked Gun. Year: 1988. \nBack to the Future. Year: 1985. \nThe Death of Stalin. Year: 2018. \nLady Bird. Year: 2017. \nThe Mitchells vs. The Machines."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "For latest comedy movies, click<a target=\"_blank\" href=\"https://www.netflix.com/in/browse/genre/6548\"> latest comedy movies on Netflix</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1625545381593",
+      "conditions": "@user_genre_selection:comedy",
+      "dialog_node": "response_9_1625545517495"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1625467649676",
+      "variable": "$user_name",
+      "dialog_node": "slot_5_1625468710201",
+      "previous_sibling": "response_7_1625468740602"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1625469801547",
+      "dialog_node": "slot_7_1625471915842"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, I am the OTT recommend engine, I can help you with choosing an OTT platform and with movie recommendations for various genres.\nWith whom do I have the pleasure of speaking with?"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "OTT skill",
+  "language": "en",
+  "description": ""
+}
